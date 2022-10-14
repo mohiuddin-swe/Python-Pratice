@@ -65,15 +65,17 @@ print("................" )
 
 print("Global Keyword Start from here")
 
+
+x = "Awesome"
 def myfunc():
     global x
     x = "fantastic"
 
-    myfunc()
+myfunc()
 
-    print("Python is " + x)
-    print("x printed from a function through global keyword")
-    print(".............................................")
+print("Python is " + x)
+print("x printed from a function through global keyword")
+print(".............................................")
 
 
 
