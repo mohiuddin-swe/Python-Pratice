@@ -1,8 +1,17 @@
 
+def hello2(fname, lname= "Uddin"):
 
-def hello2(fname="Md Mohi", lname="Uddin"):
+
+ print(f"Full Name: {fname} {lname}")
+
+hello2("Md Mohi")
 
 
-print(f"Full Name: {fname} {lname}")
+#Arbitary Keyword Arguments
 
-hello2()
+def fun2(**kwargs):
+    print(kwargs)
+
+fun2(fname= "Md Mohi", lname= "Uddin", age=22)
+
+fun2()
